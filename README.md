@@ -38,4 +38,7 @@ The Arduino code includes:
 - PWM signal generation for motor control
 - Relay switching logic
 
-> You can find the c
+## 📦 Future Improvements
+
+- Integration with battery management system
+- Compact PCB design for production
