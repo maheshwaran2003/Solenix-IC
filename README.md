@@ -2,7 +2,7 @@
 
 This project demonstrates the development of a hybrid propulsion system combining an Internal Combustion (IC) engine and an Electric motor for two-wheelers. The electronic control system is built using an Arduino Uno, integrating sensor data from the IC engine to control current flow through the electric motor.
 
-## 🚀 Project Overview
+##  Project Overview
 
 - **Type**: Hybrid Engine Controller (IC + Electric)
 - **Platform**: Arduino Uno
@@ -12,7 +12,7 @@ This project demonstrates the development of a hybrid propulsion system combinin
   - Employs a solid-state relay (SSR) for current switching
   - Activates an electric coil based on input signals
 
-## ⚙️ Components Used
+## Components Used
 
 - Arduino Uno
 - Engine Sensors (Temperature, RPM, etc.)
@@ -22,7 +22,7 @@ This project demonstrates the development of a hybrid propulsion system combinin
 - Power Supply (12V/5V as required)
 - Connecting Wires, Breadboard
 
-## 🔧 Working Principle
+## Working Principle
 
 1. Engine sensors send real-time data to the Arduino Uno.
 2. Based on programmed thresholds, Arduino decides when to activate the electric motor.
@@ -30,7 +30,7 @@ This project demonstrates the development of a hybrid propulsion system combinin
 4. A solid-state relay switches the motor current path.
 5. The current is passed through the electric coil for propulsion assistance.
 
-## 🧠 Code Overview
+## Code Overview
 
 The Arduino code includes:
 - Analog/Digital sensor readings
@@ -38,7 +38,7 @@ The Arduino code includes:
 - PWM signal generation for motor control
 - Relay switching logic
 
-## 📦 Future Improvements
+## Future Improvements
 
 - Integration with battery management system
 - Compact PCB design for production
